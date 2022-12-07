@@ -13,6 +13,7 @@ namespace projeto_final.Models
         public DbSet<Consumidor> Consumidors {get;set;}
         public DbSet<Pedido> Pedidos {get;set;}
         public DbSet<Produto> Produtos {get;set;}
+        public DbSet<Pagamento> Pagamentos{get;set;}
         public DbSet<Boleto> Boletos {get;set;}
         public DbSet<CartaoCredito> CartaoCreditos {get;set;}
     }
